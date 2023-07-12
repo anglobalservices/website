@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>BIS Certification for Footwear | Procedure</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+   <script>
+        $(function(){
+            $('#header').load('header.html');
+            $('#footer').load('footer.html');
+        });
+   </script>
+</head>
+
+<body>
+   <!-- <div class="container">
+      <div class="row">
+         <div class="col-xl-3 col-lg-3 col-md-3">
+            <div class="main-logo">
+               <a href="https://anglobalservices.com/"><img
+                     src="https://anglobalservices.com/wp-content/themes/global_theme/images/logo.png" class="logo"
+                     alt=""></a>
+            </div>
+         </div>
+         <div class="col-xl-9 col-lg-9 col-md-9">
+            <div style="margin-left: 80px;font-size: large;margin-top: 25px;">
+               <a href="tel:7782069184" class="colorhearicon"><i
+                     class="fa fa-phone fa-lg"></i>7782069184</a>&nbsp;&nbsp;
+               <a href="mailto:info@alephindia.in" class="colorhearicon"><i
+                     class="fa fa-envelope fa-lg"></i>&nbsp;info@anglobalservices.com </a>&nbsp;&nbsp;
+               <a href="https://www.anglobalservices.com/" target="_blank" class="colorhearicon"><i
+                     class="fa fa-map-marker fa-lg"></i>&nbsp;An Global Services Pvt. Ltd.</a>
+            </div>
+         </div>
+      </div>
+   </div> -->
+
+   <!-- <div class="header">
+      <div>
+         <a href="index.html#"></i>HOME</a>
+         <a href="aboutus.html">ABOUT US</a>
+         <a data-toggle="modal" data-target="#myModal">SERVICES</a>
+          <a href="#contact">CONTACT US</a>
+         <a href="#update">UPDATE</a>
+
+      </div>
+   </div> -->
+   <div id="header"></div>
+   <div style="text-align: center;">
+      <img class="mySlides" src="./images/abouts.jpg" style="width:100%; height: 298px;">
+      <h3 class="m-t30 heading_design text-center">ABOUT US
+      </h3>
+      <div class="row">
+         <div class="column">
+            <div style="width: 280%;padding: 13px 25px;">
+               <div style="text-align: justify;">
+                  <p>"AN global service" is a well-established and leading consulting firm, a reliable service provider.
+                     We
+                     have placed ourselves amongst the assured names in the corporate world.</p>
+                  <p> We provide Product Certification (ISI mark), Foreign Manufactures Certification Scheme (FMCS),
+                     Compulsory Registration Scheme (CRS), and hallmarking of precious metals/jewellery, BEE
+                     Registration,
+                     EPR Authorization (for e-waste), WPC Approval and TEC Certification, NSIC Certification, WMI
+                     Certification, NABL Accreditation Consultancy Indian BIS and CRS Scheme for Electronics & IT Goods,
+                     WPC License and many more. </p>
+                  <p>The Government of India has established various parameters to ensure the safety of the customers
+                     which
+                     includes providing high-quality products to the customer. That includes completing the
+                     prerequisites
+                     to survive in a competitive environment because these prerequisites act as fundamental factors that
+                     help an establishment to grow and develop.</p>
+                  <P>That's why we will be responsible for following the systematic registration process, including
+                     filing
+                     the registration form, documentation, testing (if required), inspection (if required), and
+                     coordinating with the authorities for proper follow-up and acknowledgment. We provide complete ISI
+                     Certification consultancy services for your product from start to end, during which assist you in
+                     all
+                     types of documentation formalities and we take care of all cooperation with BIS Office in India.
+                  </P>
+               </div>
+            </div>
+         </div>
+         <div class="column">
+            <div>
+               <img src="./images/AN-Global.png" style="width: 147%;margin-left: 171%;height: 353px;margin-top: -8%;">
+            </div>
+                
+         </div>
+      </div>
+   </div><br>
+
+   <div>
+      <h3 id="services" class="m-t30 heading_design text-center">OUR SERVICES
+      </h3>
+      <div class="shrink">
+          <img style="width: 90%; margin-left: 6%;"  src="./images/Screenshot (26).png">
+      </div>
+  </div>
+
+    <div id="footer"></div>
+ <!-- Modal -->
+
+   <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+         var i;
+         var x = document.getElementsByClassName("mySlides");
+         for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+         }
+         myIndex++;
+         if (myIndex > x.length) { myIndex = 1 }
+         x[myIndex - 1].style.display = "block";
+         setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+   </script>
+
+   <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtntop");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+         scrollFunction()
+      };
+
+      function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+         } else {
+            mybutton.style.display = "none";
+         }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+      }
+   </script>
+
+</body>
+
+</html>
