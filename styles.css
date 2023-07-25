@@ -43,9 +43,9 @@
     background-position: right center;
     overflow: hidden;
 }
-.grey-bg {
+/* .grey-bg {
     background-color: #f7f8f9 !important;
-}
+} */
 .request-callback {
     /* position: relative; */
     padding-right: 95px;
