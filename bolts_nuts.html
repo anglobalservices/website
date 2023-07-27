@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Smart Speakers (with and without Display)-IS 616 : 2017</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html');
+            $('#footer').load('footer.html');
+            $('#contact').load('contact.html');
+            $('#our_services').load('our_services.html');
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <!-- <img class="mySlides" src="./images/bis-crs-electronic.webp" style="width:100%; height: 298px;"> -->
+    <h1 class="h1-design heading_design text-center crm-top-pad">
+
+        <!-- dynamic title here  -->
+        DRAFT QCO NOTIFICATION FOR MANDATORY BIS CERTIFICATION OF BOLTS, NUTS AND FASTENERS
+    </h1>
+    <div class="content-area">
+        <div class="iq-container">
+            <div class="row margin-left-0px">
+                <!-- Left part start -->
+                <div>
+                    <!-- blog start -->
+                    <div>
+
+                        <!---------------------Dynamic Content Step 2-------------------------->
+                        <!---------------------Dynamic Content-------------------------->
+
+                        <div class="m-t60">
+                            <div class="">
+                                <div class="dlab-post-title">
+                                    <div class="col-md-12 text-black text-justify">
+
+
+                                        <p class="p-design m-t20 text-justify">
+                                            The Central Government, after consulting the Bureau
+                                            of Indian Standards, decides that it is necessary or expedient to issue the
+                                            "Bolts, Nuts and Fasteners (Quality Control) Order, 2023" in exercise of the
+                                            powers conferred by Section 16 of the Bureau of Indian Standards Act, 2016
+                                            (11 of 2016).
+                                            According to this Order, "Bolts, Nuts and Fasteners" shall have to comply
+                                            with the corresponding Indian Standard and bear the standard mark (ISI Mark)
+                                            under a license from the Bureau of Indian Standards as per Scheme- I of
+                                            Schedule- II of BIS (Conformity Assessment) Regulations 2018, and cannot be
+                                            produced, traded/sold, stocked, or imported unless they bear the ISI Mark.
+                                            This order is not applicable to the products or articles which are meant for
+                                            export.
+                                            NOTE: Any person who violates the provisions of this order will be punished
+                                            in accordance with the provisions of the BIS Act, 2016.
+                                            Implementation Authority: Bureau of Indian Standards (Govt. of India)
+                                        </p>
+
+
+                                     
+                                            <iframe src="Document/The Bolts, Nuts and Fasteners (Quality Control) Order 247533-3-4.pdf"  height="800"
+                                                style="border: none;width: 100%;">
+                                                
+                                            </iframe>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- <div>
+        <h1 id="services" class="m-t30 font-weight-bold m-b20 text-center">OUR SERVICES</h1>
+        <div class="shrink">
+            <img style="width: 90%; margin-left: 6%;" src="./images/Screenshot (26).png">
+        </div>
+    </div> -->
+    <div id="our_services"></div><br>
+    <div id="contact"></div>
+    <div id="footer"></div>
+    <!-- Modal -->
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtntop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>

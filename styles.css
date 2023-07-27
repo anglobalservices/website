@@ -28,16 +28,11 @@
 .hmpro-slid {
     margin-top: 10px;
 }
-.hm-quote {
+.hm-quotes {
     /* background-image: url(https://anglobalservices.com/images/bnr.jpg); */
     background-color: cadetblue;
-    padding: 10px 0;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
+    
+   
 }
 .consultation {
     background-position: right center;
@@ -58,13 +53,13 @@
 }
 .request-callback .textcontact {
     position: relative;
-    color: #fff;
+    color: black;
     margin-bottom: 30px;
     z-index: 9;
 }
 .textcontactheader{
     position: relative;
-    color: #fff;
+    color: black;
     margin-bottom: 30px;
     z-index: 9;
 }
@@ -84,12 +79,12 @@
 .request-callback:before {
     position: absolute;
     content: '';
-    background-color: rgba(0, 69, 102, 0.95);
+    /* background-color: rgba(8, 15, 19, 0.95); */
     width: 10000%;
     height: 100%;
     top: 0;
     right: 15px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .contact-form .form-group:last-child {
     margin-bottom: 30px;
