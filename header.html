@@ -138,14 +138,17 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <a class="navbar-brand dropbtn" href="index.html" >HOME</a>
           <a class="navbar-brand dropbtn" href="aboutus.html" >ABOUT US</a>
-          <a class="dropdown-toggle navbar-brand dropbtn" data-toggle="dropdown" href="#">SERVICES</a>
-          <div class="dropdown-menu" role="menu" style="width: fit-content;">
+          <div class="dropdowns">
+          <a class="dropbtn navbar-brand" onclick="myFunction10()">SERVICES<i class="fa fa-caret-down"></i></a>
+          <div class=" dropdowns-content" role="menu" style="width: fit-content;" id="myDropdown10"><br><br>
             <button type="button" class="close" aria-label="Close">
 
               <span aria-hidden="true">&times;</span>
 
             </button>
-            <ul class="m-t20" style="font-size: small;font-weight: bold;">
+            <div class="row m-t20">
+              <div class="col-md-12 text-black text-justify">
+            <ul  class="col-md-6">
               <h3><u>CERTIFICATION & LICENSE</u></h3>
               <li><a href="isi.html">BIS (ISI MARK) CERTIFCATION FOR DOMESTIC PRODUCTS</a></li>
               <li><a href="FMCS_services.html">BIS ISI MARK FOR FMCS</a></li>
@@ -158,7 +161,7 @@
               <li><a href="lab_servces.html">LABORATORY EQUIPMENT & SETUP</a></li>
               <li><a href="wpc_services.html">WPC CERTIFICATION SERVICES</a></li>
             </ul>
-            <ul class=" m-t20" style="font-size: small;font-weight: bold;">
+            <ul class="col-md-6">
               <h3><u>REGISTRATION</u></h3>
               <li><a href="crs_electronic_it.html">BIS (CRS) REGISTRATION FOR ELECTRONIC PRODUCTS</a></li>
               <li><a href="solar_services.html">SOLAR PANEL BIS REGISTRATION</a></li>
@@ -172,7 +175,9 @@
               <li><a href="msme_services.html">MSME NSIC REGISTRATION SERVICES</a></li>
 
             </ul>
-
+            </div>
+          </div>
+          </div>
           </div>
           <!-- <a class="navbar-brand" href="#" style="font-size: small;font-weight: bold;">TESTING SERVICES</a>
          <a class="navbar-brand" href="#" style="font-size: small;font-weight: bold;">EQUIPMENTS & PRODUCTS</a> -->
@@ -253,6 +258,9 @@
   }
   function myFunction1() {
     document.getElementById("myDropdown1").classList.toggle("show");
+  }
+  function myFunction10() {
+    document.getElementById("myDropdown10").classList.toggle("show");
   }
   
   // Close the dropdown if the user clicks outside of it
