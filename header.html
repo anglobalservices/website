@@ -141,13 +141,10 @@
           <div class="dropdowns">
           <a class="dropbtn navbar-brand" onclick="myFunction10()">SERVICES<i class="fa fa-caret-down"></i></a>
           <div class=" dropdowns-content" role="menu" style="width: fit-content;" id="myDropdown10"><br><br>
-            <button type="button" class="close" aria-label="Close">
-
-              <span aria-hidden="true">&times;</span>
-
-            </button>
-            <div class="row m-t20">
-              <div class="col-md-12 text-black text-justify">
+            
+            <div class="row">
+              
+              <div class="col-md-12">
             <ul  class="col-md-6">
               <h3><u>CERTIFICATION & LICENSE</u></h3>
               <li><a href="isi.html">BIS (ISI MARK) CERTIFCATION FOR DOMESTIC PRODUCTS</a></li>
@@ -187,11 +184,11 @@
           <i class="fa fa-caret-down"></i>
         </a>
         <div class="dropdowns-content dropdown-content" id="myDropdown">
-              <li><a>SOLAR PANEL TESTING</a></li>
-              <li><a >FOOTWEAR TESTING</a></li>
-              <li><a >GOLD TESTING</a></li>
+              <li><a href="testing_solar_panel.html">SOLAR PANEL TESTING</a></li>
+              <li><a href="testing_footwear.html">FOOTWEAR TESTING</a></li>
+              <li><a href="testing_gold.html" >GOLD TESTING</a></li>
               <li><a >TOYS TESTING</a></li>
-              <li><a >CHEMICAL TESTING</a></li>
+              <!-- <li><a >CHEMICAL TESTING</a></li> -->
         </div>
         </div>
         <div class="dropdowns">
@@ -199,11 +196,11 @@
           <i class="fa fa-caret-down"></i>
         </a>
         <div class="dropdowns-content dropdown-content" id="myDropdown1">
-          <li><a class="dropdown-item">SOLAR PANEL TESTING</a></li>
+          <li><a href="eqipmentforsolar.html">SOLAR PANEL TESTING</a></li>
           <li><a href="equipmentforfootwear.html">EQUIPMENTS FOR FOOTWEAR</a></li>
           <li><a href="equipmentforgold.html" class="dropdown-item">EQUIPMENTS FOR GOLD</a></li>
-          <li><a class="dropdown-item">EQUIPMENTS FOR TOYS</a></li>
-          <li><a class="dropdown-item">EQUIPMENTS For CHEMICALS</a></li>
+          <li><a href="equipmentfortoy.html">EQUIPMENTS FOR TOYS</a></li>
+          <li><a href="eqipmentsforleaser.html">LASER SOLDERING MACHINE</a></li>
         </div>
         </div>
         <div class="dropdowns">
@@ -211,8 +208,8 @@
             <i class="fa fa-caret-down"></i>
           </a>
           <div class="dropdowns-content dropdown-content" id="myDropdown2">
-            <li><a class="dropdown-item">LATEST NOTIFICATION</a></li>
-            <li><a class="dropdown-item">NEWS & UPDATES</a></li>
+            <li><a href="latest_updates.html">LATEST NOTIFICATION</a></li>
+            <li><a href="#">NEWS & UPDATES</a></li>
             <li><a class="dropdown-item">BLOGS</a></li>
             <li><a class="dropdown-item">CAREERS</a></li>
           </div>
@@ -241,6 +238,12 @@
 </script>
 
 <script>
+  window.onload = function(){
+    document.getElementById('close').onclick = function(){
+        this.parentNode.parentNode.remove();
+        return false;
+    };
+};
   /* When the user clicks on the button, 
   toggle between hiding and showing the dropdown content */
   function myFunction() {
@@ -302,7 +305,19 @@ window.onclick = function(event) {
   </script>
 
   <style>
+  #close {
     
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#close:hover {
+   
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
     .dropdown-content {
   display: none;
   position: absolute;
