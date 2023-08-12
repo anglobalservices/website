@@ -276,6 +276,18 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.Slidess {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container1 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 /* Caption text */
 .text {
   color: #f2f2f2;
